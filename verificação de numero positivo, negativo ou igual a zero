@@ -1,0 +1,25 @@
+package com.mycompany.mavenproject1;
+
+import java.util.Scanner;
+public class Mavenproject1 {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+       System.out.println("Digite um numero");
+       int numero = input.nextInt();
+       
+       if (numero > 0){
+           System.out.println("numero positivo");
+       }
+       
+       else if (numero == 0){
+           System.out.println("numero 0");
+       } else{
+           System.out.println("negativo");
+       }
+       input.close();
+    }
+    
+}
