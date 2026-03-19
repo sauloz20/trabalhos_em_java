@@ -1,0 +1,32 @@
+
+
+package com.mycompany.mavenproject1;
+
+import java.util.Scanner;
+public class Mavenproject1 {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Digite sua nota");
+        int nota1 = input.nextInt();
+        
+        if (nota1 >= 70){
+            System.out.println("aprovado");
+        }else if(nota1 >= 50){
+                System.out.println("recuperação");
+        }else{
+                System.out.println("reprovado");
+            }
+                input.close();
+        } 
+    }
+      
+    
+      
+        
+        
+        
+        
+    
